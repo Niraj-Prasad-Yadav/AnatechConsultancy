@@ -1,9 +1,9 @@
 function emailSend() {
   event.preventDefault();
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
+  var name = document.getElementById("name")?.value;
+  var email = document.getElementById("email")?.value;
   var phone = document.getElementById("phone")?.value;
-  var subject = document.getElementById("subject").value;
+  var subject = document.getElementById("subject")?.value;
   var body = document.getElementById("body")?.value;
   const result = document.getElementById("result");
 
