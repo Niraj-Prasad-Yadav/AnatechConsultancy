@@ -114,6 +114,10 @@
   text-align: center;
 }
 
+.mission .single-info .content {
+  margin-left: 0px;
+}
+
 .why-choose-us.why-choose-us-container {
   display: block !important;
   width: 100%;
@@ -455,4 +459,10 @@
 .heading-contact {
   color: #fff;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .mission .single-info {
+    height: 450px;
+  }
 }
