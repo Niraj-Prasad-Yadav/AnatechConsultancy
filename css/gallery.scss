@@ -1,0 +1,139 @@
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #4f1c27;
+  font-size: 18px;
+}
+
+#project-gallery {
+  margin: 5% 10%;
+}
+
+.project {
+  padding: 0;
+  width: 100%;
+  height: 33vw;
+  border-left: 15px solid white;
+  border-right: 15px solid white;
+  border-bottom: 40px solid white;
+  @media screen and (max-width: 991px) {
+    height: 50vw;
+  }
+  @media screen and (max-width: 767px) {
+    height: 80vw;
+  }
+  &__info {
+    &--title {
+      font-size: 1.5vw;
+      line-height: 0.8em;
+      color: #fff;
+      font-weight: bold;
+      @media screen and (max-width: 991px) {
+        font-size: 1.2em;
+      }
+      @media screen and (max-width: 420px) {
+        font-size: 1em;
+      }
+    }
+    &--text {
+      position: absolute;
+      padding: 10px;
+      bottom: 0;
+      left: 0;
+      @media screen and (max-width: 420px) {
+        font-size: 0.8em;
+      }
+    }
+  }
+  &__name {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    font-size: 1.5vw;
+    line-height: 0.8em;
+    color: #fff;
+    background-color: #1145bb;
+    width: 100%;
+    font-weight: bold;
+    &:hover {
+      cursor: default;
+    }
+    @media screen and (max-width: 991px) {
+      font-size: 1.2em;
+    }
+  }
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #1145bb;
+    overflow: hidden;
+    opacity: 0.9;
+    display: none;
+  }
+  &__info-button {
+    position: relative;
+    font-size: 3vw;
+    margin: 20px;
+    z-index: 3;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+    @media screen and (max-width: 991px) {
+      font-size: 1.2em;
+    }
+  }
+}
+//CHANGE TO RIGHT ID HERE, AND ADD NEW IMAGE IN URL
+//project nr 1
+#henrik-henriksen {
+  background: url(../images/pexels-photo-555790.png);
+  background-size: cover;
+  visibility: visible;
+}
+
+//project nr 2
+#yvonne-skogstad {
+  background: url(../images/pexels-photo-1669151.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+//project nr 3
+#dog-dogster {
+  background: url(../images/pexels-photo-825947.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+//project nr 4
+#john-johnsen {
+  background: url(../images/pexels-photo-842980.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+//project nr 5
+#tiny-dog {
+  background: url(../images/pexels-photo-1851164.jpeg);
+  background-size: cover;
+  visibility: visible;
+}
+
+//project nr 6
+#frida-fransen {
+  background: url(../images/pexels-photo-1669164.jpeg);
+  background-size: cover;
+  visibility: visible;
+}

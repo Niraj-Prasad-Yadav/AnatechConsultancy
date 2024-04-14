@@ -389,6 +389,11 @@
     margin-bottom: 25px;
   }
 }
+@media screen and (max-width: 780px) {
+  .contact-us .contact-us-form p {
+    margin-bottom: 40px;
+  }
+}
 
 @media screen and (min-width: 991px) {
   .static .single-static {
@@ -462,6 +467,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .contact-us .single-info-custom .email-contact {
+    font-size: 14px;
+  }
   .mission .single-info {
     height: 450px;
   }
