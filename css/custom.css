@@ -119,7 +119,6 @@
 }
 
 .why-choose-us.why-choose-us-container {
-  display: block !important;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -473,4 +472,9 @@
   .mission .single-info {
     height: 450px;
   }
+}
+
+.white-font h2,
+.white-font p {
+  color: #fff;
 }
