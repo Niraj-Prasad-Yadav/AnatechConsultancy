@@ -139,6 +139,31 @@
   background-size: cover;
   visibility: visible;
 }
+#project-item7 {
+  background: url(../img/Portfolio/Team\ Cord.png);
+  background-size: cover;
+  visibility: visible;
+}
+#project-item8 {
+  background: url(../img/Portfolio/decor\ crafting.png);
+  background-size: cover;
+  visibility: visible;
+}
+#project-item9 {
+  background: url(../img/Portfolio/Chatter.png);
+  background-size: cover;
+  visibility: visible;
+}
+#project-item10 {
+  background: url(../img/Portfolio/Saffron\ Tales.png);
+  background-size: cover;
+  visibility: visible;
+}
+#project-item11 {
+  background: url(../img/Portfolio/Saltireplay.png);
+  background-size: cover;
+  visibility: visible;
+}
 .tech {
   font-size: 12px;
   background-color: #e13138;
