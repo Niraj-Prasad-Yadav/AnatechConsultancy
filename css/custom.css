@@ -3,7 +3,8 @@
 }
 
 .logo-img {
-  height: 60px;
+  margin-top: -15px;
+  padding: 10px;
 }
 
 .flex-row-reverse {
@@ -38,7 +39,7 @@
   color: #fff;
   font-size: 1.1rem;
   font-weight: 600;
-  background-color: #000000;
+  background-color: #ed4b00;
   padding: 0.3rem 0.4rem;
   border-radius: 5px;
   box-shadow: 2px 3px 15px #3c405a;
@@ -389,6 +390,9 @@
   }
 }
 @media screen and (max-width: 780px) {
+  .logo-img {
+    height: 60px;
+  }
   .contact-us .contact-us-form p {
     margin-bottom: 40px;
   }

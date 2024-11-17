@@ -287,14 +287,14 @@ Preloader Area CSS
   width: 100%;
   text-align: center;
   z-index: 9999999;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .preloader .loader {
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   display: inline-block;
   left: 0;
@@ -304,12 +304,12 @@ Preloader Area CSS
   -webkit-transform: translateY(-45%);
   transform: translateY(-45%);
   -webkit-transition: 0.5s;
-  transition: 0.5s;
+  transition: 2s;
 }
 
 .preloader .loader .loader-outter {
   position: absolute;
-  border: 4px solid #ffffff;
+  border: 4px solid #ed4b00;
   border-left-color: transparent;
   border-bottom: 0;
   width: 100%;
@@ -322,12 +322,12 @@ Preloader Area CSS
 
 .preloader .loader .loader-inner {
   position: absolute;
-  border: 4px solid #ffffff;
+  border: 4px solid #ed4b00;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  left: calc(40% - 21px);
-  top: calc(40% - 21px);
+  width: 12rem;
+  height: 12rem;
+  left: calc(40% - 70px);
+  top: calc(40% - 70px);
   border-right: 0;
   border-top-color: transparent;
   -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41)
@@ -373,8 +373,8 @@ Preloader Area CSS
   width: 60%;
   z-index: -1;
   background: #1145bb;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .preloader::after {
@@ -487,7 +487,7 @@ Preloader Area CSS
   bottom: 0;
   left: 0;
   right: 0;
-  background: #ad0f1d;
+  background: #ed4b00;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
