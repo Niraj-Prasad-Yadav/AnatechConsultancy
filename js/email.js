@@ -18,10 +18,10 @@ function emailSend() {
     body;
 
   Email.send({
-    Host: "smtp.elasticemail.com",
+    Host: "smtp25.elasticemail.com",
     Username: "anatechglobalconsultancy@gmail.com",
-    Password: "F1564371ADF15A6F8B1882F1B7753AA7A681",
-    To: "contact@anatechconsultancy.com",
+    Password: "1674531E828091D1E4B818C6C4BEFE27ED8E",
+    To: "anatechglobalconsultancy@gmail.com",
     From: "anatechglobalconsultancy@gmail.com",
     Subject: subject,
     Body: messageBody,
